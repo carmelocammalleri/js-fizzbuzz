@@ -17,7 +17,7 @@ for(let i = 1; i <= 100; i++){
     box.textContent = ('Buzz')
   }
 
-// divisibileper 3 e per 5
+  // divisibileper 3 e per 5
   if(!(i % 3) && !(i % 5)){
    box.classList.add('fizz-buzz')
    box.textContent = ('Buzz-Fizz')

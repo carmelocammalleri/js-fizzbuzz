@@ -2,21 +2,26 @@
   width: 100px;
   height: 100px;
   text-align: center;
-  background-color: aquamarine;
+  background-color: #1389B2;
   margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.cont-box {
+  background-color: #083B4C;
+}
+
+
 .box.fizz {
-  background-color: green;
+  background-color: #0CD6A1;
 }
 
 .box.buzz {
-  background-color: yellow;
+  background-color: #FFD166;
 }
 
 .box.fizz-buzz {
-  background-color: red;
+  background-color: #F0466F;
 }
