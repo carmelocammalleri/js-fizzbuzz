@@ -17,8 +17,7 @@ for(let i = 1; i <= 100; i++){
   } else if (i % 5 === 0){
     box.classList.add('buzz')
     box.append('Buzz')
-  } else if (i % 3 != 0 && i % 5 != 0){
+  } else {
     box.append(i); 
   }
-  
-}
+  }
