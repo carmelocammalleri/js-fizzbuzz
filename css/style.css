@@ -9,6 +9,14 @@
   align-items: center;
 }
 
-.box.green {
+.box.fizz {
   background-color: green;
+}
+
+.box.buzz {
+  background-color: yellow;
+}
+
+.box.fizz-buzz {
+  background-color: red;
 }
